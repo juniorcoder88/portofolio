@@ -1,0 +1,37 @@
+:root {
+  --color1: rgb(18, 72, 92);
+  --color2: rgb(19, 130, 155);
+  --color3: rgb(75, 215, 250);
+  --color4: rgb(25, 135, 82);
+}
+nav {
+  background-color: var(--color2) !important;
+}
+nav a,
+nav span {
+  color: white !important;
+}
+
+.foot {
+  background-color: var(--color2);
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+footer {
+  background-color: var(--color1);
+}
+svg {
+  fill: white;
+}
+.home {
+  height: calc(100vh - 56px);
+}
+body {
+  background-color: var(--color3);
+}
+.contact,
+.about {
+  min-height: calc(100vh - 56px);
+}
